@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример страницы</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            display: flex;
+            height: calc(100vh - 80px); /* Высота минус высота навбара и подвала */
+            padding: 10px;
+        }
+        .left-sidebar {
+            width: 20%;
+            background-color: #f4f4f4;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .main-content {
+            width: 80%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .footer {
+            background-color: #aaafff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <a href="page1.html">Ссылка 1</a>
+    <a href="page2.html">Ссылка 2</a>
+    <a href="page3.html">Ссылка 3</a>
+    <a href="page4.html">Ссылка 4</a>
+    <a href="page5.html">Ссылка 5</a>
+    <a href="page6.html">Ссылка 6</a>
+</div>
+
+<div class="container">
+    <div class="left-sidebar">
+        <p>Левая боковая панель</p>
+    </div>
+    <div class="main-content">
+        <p>Основное содержание</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Подвал страницы</p>
+</div>
+</body>
+</html>

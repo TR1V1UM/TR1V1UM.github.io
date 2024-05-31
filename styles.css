@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.container {
+    display: flex;
+    height: calc(100vh - 20px); /* Высота минус высота навбара и подвала */
+    padding: 10px;
+    min-height: 100px; /* Минимальная высота */
+    border: 1px solid black; /* Граница для наглядности */
+}
+.flex-item {
+    border: 1px solid black; /* Граница для наглядности */
+}
+.left-sidebar {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+}
+.main-content {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.footer div {
+    width: 40%;
+}
+.bold-link {
+    font-weight: bold;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer li {
+    margin: 5px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer img {
+    max-width: 100%;
+    height: auto;
+}
+.centered-text {
+    text-align: center;
+    color: blue;
+    font-size: 24px;
+}
+.text-size {
+    font-size: 20px;
+}
+.resized-image {
+    max-width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;     /* Центрирование по вертикали */ /* Высота контейнера */
+    border: 1px solid black; /* Граница для наглядности */
+}
